@@ -1,0 +1,16 @@
+{
+  "target": "target_mut.npy",
+  "valid_nodes": "nodes_mut.npy",
+  "conv": 2,
+  "hidden_dim": 128,
+  "loss": "bce",
+  "emb_dim": 384,
+  "active": "relu",
+  "lr": 0.001,
+  "epoch": 1000,
+  "batch": 2,
+  "keep": 1,
+  "patience": 50,
+  "gpu": 1,
+  "suffix": "sample"
+}
