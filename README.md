@@ -51,7 +51,5 @@ python eval_cv.py cv_sample
 
 ## Cite
 
-~~~
-To be added...
-~~~
+> Xiaowen Wang, Hongming Zhu, Yizhi Jiang, Yulong Li, Chen Tang, Xiaohan Chen, Yunjie Li, Qi Liu, Qin Liu, PRODeepSyn: predicting anticancer synergistic drug combinations by embedding cell lines with protein–protein interaction network, Briefings in Bioinformatics, Volume 23, Issue 2, March 2022, bbab587, https://doi.org/10.1093/bib/bbab587
 
