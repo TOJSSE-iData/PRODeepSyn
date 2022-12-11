@@ -4,12 +4,16 @@
 
 ## Start
 
-large data files are maintain with git lfs, see  [train.py · Issue #1 · TOJSSE-iData/PRODeepSyn · GitHub](https://github.com/TOJSSE-iData/PRODeepSyn/issues/1) for details
+~~large data files are maintain with git lfs, see  [train.py · Issue #1 · TOJSSE-iData/PRODeepSyn · GitHub](https://github.com/TOJSSE-iData/PRODeepSyn/issues/1) for details~~
+
+git lfs seems to be hard to use, we now provide the data in tar.gz .
 
 ~~~bash
 git clone  # this repo
 cd ProDeepSyn
-git lfs install && git-lfs pull  # git lfs
+# [ABANDONED] git lfs install && git-lfs pull  # git lfs
+tar -zxvf cell.tar.gz
+# install env
 pip install virtualenv
 virtualenv venv --no-site-packages --python=python3.
 # ...
